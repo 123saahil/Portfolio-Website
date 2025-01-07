@@ -3,7 +3,7 @@ import profilePic from "../assets/saahilmishra.jpg";
 import { motion } from "motion/react";
 
 const container = (delay) => ({
-  hidden: { x: -100, opacity: 0 },
+  hidden: { x: -105, opacity: 0 },
   visible: {
     x: 0,
     opacity: 1,
