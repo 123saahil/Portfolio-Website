@@ -36,6 +36,10 @@ const Contact = () => {
           <a href="" className="border-b">
             saahilmishra016@yahoo.com
           </a>
+          <br></br>
+          <a href="" className="border-b">
+            22bcs105@iiitdwd.ac.in
+          </a>
         </motion.div>
       </div>
     </div>
