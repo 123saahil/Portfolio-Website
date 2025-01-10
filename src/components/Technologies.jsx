@@ -87,7 +87,7 @@ const Technologies = () => {
           <SiPostman className="text-7xl text-orange-500 "></SiPostman>
         </motion.div>
         <motion.div
-          variants={iconVariants(4.5)}
+          variants={iconVariants(4.6)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
