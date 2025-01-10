@@ -6,6 +6,7 @@ import { BiLogoDocker } from "react-icons/bi";
 import { IoLogoNodejs } from "react-icons/io5";
 import { SiPostman } from "react-icons/si";
 import { motion } from "framer-motion";
+import { SiPrisma } from "react-icons/si";
 
 const iconVariants = (duration) => ({
   initial: { y: -10 },
@@ -51,7 +52,7 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <TbBrandNextjs className="text-7xl text-green-800 "></TbBrandNextjs>
+          <TbBrandNextjs className="text-7xl text-green-500 "></TbBrandNextjs>
         </motion.div>
         <motion.div
           variants={iconVariants(2.5)}
@@ -84,6 +85,14 @@ const Technologies = () => {
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
           <SiPostman className="text-7xl text-orange-500 "></SiPostman>
+        </motion.div>
+        <motion.div
+          variants={iconVariants(4.5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <SiPrisma className="text-7xl text-white-900 "></SiPrisma>
         </motion.div>
       </motion.div>
     </div>
