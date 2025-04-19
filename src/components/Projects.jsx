@@ -2,9 +2,36 @@ import React from "react";
 import shamir from "../assets/shamirs.png";
 import worldenergy from "../assets/worldenergy.jpg";
 import portfolio from "../assets/portfolio.png";
+import ByteWrite from "../assets/ByteWrite.jpg";
+import qubitconnect from "../assets/qubitconnect.jpeg"
 import { motion } from "motion/react";
+
 const Projects = () => {
   const projects = [
+    {
+      title: "Quantum Internet Simulator (QubitConnect)",
+      image: qubitconnect,
+      description:
+        "Simulated a quantum internet with four interconnected nodes using BB84 protocol for quantum key distribution. Visualized entanglement and secure communication through an interactive React frontend, with backend logic powered by Node.js and Qiskit in Python.",
+      tools: ["React", "Node.js", "Qiskit", "Python"],
+    },
+    {
+      title: "ByteWrite",
+      image: ByteWrite,
+      description:
+        "Developed a full-stack blogging application with secure user authentication using JWT. Users can sign up, sign in, create, and view blogs. ",
+      tools: [
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Mongoose",
+        "JWT",
+        "REST API",
+        "Postman",
+        "React",
+        "TailwindCSS",
+      ],
+    },
     {
       title: "File Shredder Using Shamir’s Secret Sharing",
       image: shamir,
