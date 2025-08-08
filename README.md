@@ -1,6 +1,3 @@
-Your current README.md is very minimal and mostly references the React + Vite setup. Here’s an improved README description tailored for a portfolio website built with React and Vite:
-
----
 
 # Portfolio Website
 
