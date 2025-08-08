@@ -1,9 +1,37 @@
-# React + Vite
+Your current README.md is very minimal and mostly references the React + Vite setup. Here’s an improved README description tailored for a portfolio website built with React and Vite:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+# Portfolio Website
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# Portfolio-Website
+This is a personal portfolio website built using **React** and **Vite**. It showcases my projects, skills, and experience in web development. The site is designed for fast performance with Hot Module Replacement (HMR) during development and follows modern JavaScript standards with ESLint rules.
+
+## Features
+
+- Responsive design for all devices
+- Project showcase section
+- About me and contact information
+- Built with React + Vite for optimal speed
+- Easy to customize and extend
+
+## Getting Started
+
+1. **Install dependencies:**  
+   `npm install`
+
+2. **Run development server:**  
+   `npm run dev`
+
+3. **Build for production:**  
+   `npm run build`
+
+## Tech Stack
+
+- React
+- Vite
+- JavaScript
+- CSS/HTML
+
+---
+
+You can copy and paste this into your README.md. If you want it customized further (like adding your name, special sections, or deployment info), let me know!
