@@ -18,7 +18,9 @@ const Contact = () => {
           transition={{ duration: 1 }}
           className="my-4"
         >
-          Indian Institute Of Information Technology Dharwad,Karnataka
+          Indian Institute Of Information Technology Dharwad
+          <br></br>
+          Karnataka
         </motion.p>
         <motion.p
           whileInView={{ opacity: 1, x: 0 }}
@@ -34,7 +36,7 @@ const Contact = () => {
           transition={{ duration: 1 }}
         >
           <a href="" className="border-b">
-            saahilmishra016@yahoo.com
+            saahilmishra016@gmail.com
           </a>
           <br></br>
           <a href="" className="border-b">

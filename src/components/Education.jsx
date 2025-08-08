@@ -15,16 +15,19 @@ const Education = () => {
       institution: "Indian Institute of Information Technology, Dharwad",
       degree: "B.Tech. in Computer Science and Engineering",
       year: "2026",
+      grade: "8.44",
     },
     {
       institution: "St. Patrick’s Junior College",
       degree: "Intermediate Education",
       year: "2022",
+      grade: "97.7%",
     },
     {
       institution: "Johnson Grammar School CBSE",
       degree: "Secondary Education",
       year: "2020",
+      grade: "97%",
     },
   ];
 
@@ -64,6 +67,7 @@ const Education = () => {
                 </h3>
                 <p className="text-xl text-neutral-400">{item.degree}</p>
                 <p className="text-lg text-neutral-500 mt-1">{item.year}</p>
+                <p className="text-lg text-neutral-500 mt-1">{item.grade}</p>
               </motion.div>
             </TimelineContent>
           </TimelineItem>

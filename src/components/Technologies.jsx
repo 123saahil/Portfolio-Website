@@ -7,6 +7,7 @@ import { IoLogoNodejs } from "react-icons/io5";
 import { SiPostman } from "react-icons/si";
 import { motion } from "framer-motion";
 import { SiPrisma } from "react-icons/si";
+import { SiTurborepo } from "react-icons/si";
 
 const iconVariants = (duration) => ({
   initial: { y: -10 },
@@ -93,6 +94,14 @@ const Technologies = () => {
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
           <SiPrisma className="text-7xl text-white-900 "></SiPrisma>
+        </motion.div>
+        <motion.div
+          variants={iconVariants(4.6)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <SiTurborepo className="text-7xl text-white-900 "></SiTurborepo>
         </motion.div>
       </motion.div>
     </div>

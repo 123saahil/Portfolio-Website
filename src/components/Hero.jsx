@@ -37,13 +37,15 @@ const Hero = () => {
             animate="visible"
             className="my-2 max-w-xl py-2 font-light tracking-tighter text-lg text-center lg:text-left"
           >
-            Passionate about building scalable and efficient web applications with
-            expertise in modern frontend frameworks like React.js and backend
-            technologies such as Node.js and Express.js. Proficient in
-            integrating databases, and managing deployments using platforms like
-            Docker, AWS, and Vercel. Focused on delivering secure, reliable, and
-            optimized solutions while staying updated with emerging trends in
-            web development and cloud technologies.
+            Driven full-stack developer and systems enthusiast passionate about
+            building performant, secure, and cloud-native applications. Skilled
+            in modern web stacks like React.js, Next.js, Node.js, and
+            Express.js, with deep experience in API design, real-time systems,
+            and database integration. Experienced in cloud deployment using AWS,
+            Vercel, Docker, and IBM Cloud. Strong focus on backend architecture,
+            DevSecOps practices, and emerging tech like quantum networking,
+            cryptography, and AI tooling. Always exploring innovative solutions
+            to complex problems with a product-first mindset.
           </motion.p>
         </div>
 

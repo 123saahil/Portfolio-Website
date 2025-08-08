@@ -3,11 +3,29 @@ import shamir from "../assets/shamirs.png";
 import worldenergy from "../assets/worldenergy.jpg";
 import portfolio from "../assets/portfolio.png";
 import ByteWrite from "../assets/ByteWrite.jpg";
-import qubitconnect from "../assets/qubitconnect.jpeg"
+import qubitconnect from "../assets/qubitconnect.jpeg";
+import paytmwallet from "../assets/paytmwallet.png"
 import { motion } from "motion/react";
 
 const Projects = () => {
   const projects = [
+    {
+      title: "Paytm Wallet",
+      image: paytmwallet,
+      description:
+        "Built a secure wallet system with JWT-authenticated RESTful APIs, supporting webhooks, user-to-user and bank transactions. Utilized a Turborepo monorepo for managing both Next.js frontend and Node.js backend, with a responsive UI for real-time wallet and transaction management.",
+      tools: [
+        "Next.js",
+        "Node.js",
+        "Express",
+        "TailwindCSS",
+        "MongoDB",
+        "JWT",
+        "Webhooks",
+        "Turborepo",
+      ],
+    },
+
     {
       title: "Quantum Internet Simulator (QubitConnect)",
       image: qubitconnect,
