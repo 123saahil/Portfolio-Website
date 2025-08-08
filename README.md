@@ -32,6 +32,3 @@ This is a personal portfolio website built using **React** and **Vite**. It show
 - JavaScript
 - CSS/HTML
 
----
-
-You can copy and paste this into your README.md. If you want it customized further (like adding your name, special sections, or deployment info), let me know!
