@@ -10,10 +10,10 @@ import { motion } from "motion/react";
 const Projects = () => {
   const projects = [
     {
-      title: "Paytm Wallet",
+      title: "Paytm Wallet ",
       image: paytmwallet,
       description:
-        "Built a secure wallet system with JWT-authenticated RESTful APIs, supporting webhooks, user-to-user and bank transactions. Utilized a Turborepo monorepo for managing both Next.js frontend and Node.js backend, with a responsive UI for real-time wallet and transaction management.",
+        "Built a secure wallet system with JWT-authenticated RESTful APIs, supporting webhooks, user-to-user and bank transactions. Utilized a Turborepo monorepo architecture for managing both Next.js frontend and Node.js backend, with a responsive UI for real-time wallet and transaction management.",
       tools: [
         "Next.js",
         "Node.js",
