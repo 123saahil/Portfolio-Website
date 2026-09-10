@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-label="Intelligent Legal RAG System">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b0b14"/>
+      <stop offset="55%" stop-color="#12102a"/>
+      <stop offset="100%" stop-color="#1b1140"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="50%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#f0abfc"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#6d28d9" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#6d28d9" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="50" height="50" patternUnits="userSpaceOnUse">
+      <path d="M50 0H0V50" fill="none" stroke="#ffffff" stroke-opacity="0.045" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#grid)"/>
+  <ellipse cx="800" cy="340" rx="760" ry="420" fill="url(#glow)"/>
+
+  <!-- scales of justice -->
+  <g transform="translate(148 250)" stroke="url(#accent)" stroke-width="7" fill="none" stroke-linecap="round">
+    <path d="M120 20v300"/>
+    <path d="M20 60h200"/>
+    <path d="M60 330h120"/>
+    <path d="M20 60 -30 165h100z" fill="#a78bfa" fill-opacity="0.12"/>
+    <path d="M220 60 170 165h100z" fill="#22d3ee" fill-opacity="0.12"/>
+    <circle cx="120" cy="20" r="13" fill="#0b0b14"/>
+  </g>
+
+  <!-- chat panel -->
+  <g transform="translate(600 168)">
+    <rect x="0" y="0" width="860" height="565" rx="26" fill="#ffffff" fill-opacity="0.045" stroke="#ffffff" stroke-opacity="0.13"/>
+    <circle cx="34" cy="34" r="7" fill="#f87171" fill-opacity="0.75"/>
+    <circle cx="58" cy="34" r="7" fill="#fbbf24" fill-opacity="0.75"/>
+    <circle cx="82" cy="34" r="7" fill="#34d399" fill-opacity="0.75"/>
+    <line x1="0" y1="68" x2="860" y2="68" stroke="#ffffff" stroke-opacity="0.1"/>
+
+    <!-- user bubble -->
+    <rect x="360" y="108" width="450" height="76" rx="20" fill="#a78bfa" fill-opacity="0.20" stroke="#a78bfa" stroke-opacity="0.35"/>
+    <text x="392" y="155" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="27" fill="#ede9fe">What is the punishment for murder?</text>
+
+    <!-- bot bubble -->
+    <rect x="50" y="216" width="640" height="196" rx="20" fill="#22d3ee" fill-opacity="0.10" stroke="#22d3ee" stroke-opacity="0.28"/>
+    <text x="82" y="268" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="27" fill="#e2f6fb">Under IPC Section 302, whoever commits</text>
+    <text x="82" y="308" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="27" fill="#e2f6fb">murder shall be punished with death, or</text>
+    <text x="82" y="348" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="27" fill="#e2f6fb">imprisonment for life, and shall also be liable</text>
+    <text x="82" y="388" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="27" fill="#e2f6fb">to fine.</text>
+
+    <!-- citation chips -->
+    <g font-family="Inter, Segoe UI, Arial, sans-serif" font-size="21" fill="#c4b5fd">
+      <rect x="50" y="438" width="196" height="46" rx="23" fill="#ffffff" fill-opacity="0.07" stroke="#ffffff" stroke-opacity="0.14"/>
+      <text x="78" y="468">IPC · S.302</text>
+      <rect x="262" y="438" width="214" height="46" rx="23" fill="#ffffff" fill-opacity="0.07" stroke="#ffffff" stroke-opacity="0.14"/>
+      <text x="290" y="468">CrPC · S.41</text>
+      <rect x="492" y="438" width="238" height="46" rx="23" fill="#ffffff" fill-opacity="0.07" stroke="#ffffff" stroke-opacity="0.14"/>
+      <text x="520" y="468">Evidence Act</text>
+    </g>
+    <line x1="0" y1="512" x2="860" y2="512" stroke="#ffffff" stroke-opacity="0.1"/>
+    <text x="50" y="546" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" fill="#8b8ba7">FAISS + BM25 hybrid retrieval → Gemini · grounded, cited answers</text>
+  </g>
+
+  <text x="148" y="140" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="58" font-weight="600" fill="url(#accent)">Legal RAG</text>
+  <text x="150" y="186" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="27" fill="#9ca3c4">Indian law, retrieved &amp; cited</text>
+
+  <g transform="translate(148 640)" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" fill="#cbd5f5">
+    <rect x="0" y="0" width="136" height="46" rx="23" fill="#ffffff" fill-opacity="0.07" stroke="#ffffff" stroke-opacity="0.14"/>
+    <text x="30" y="30">FastAPI</text>
+    <rect x="152" y="0" width="118" height="46" rx="23" fill="#ffffff" fill-opacity="0.07" stroke="#ffffff" stroke-opacity="0.14"/>
+    <text x="182" y="30">FAISS</text>
+    <rect x="0" y="62" width="136" height="46" rx="23" fill="#ffffff" fill-opacity="0.07" stroke="#ffffff" stroke-opacity="0.14"/>
+    <text x="28" y="92">Gemini</text>
+    <rect x="152" y="62" width="118" height="46" rx="23" fill="#ffffff" fill-opacity="0.07" stroke="#ffffff" stroke-opacity="0.14"/>
+    <text x="178" y="92">BM25</text>
+  </g>
+</svg>
